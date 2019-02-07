@@ -2,9 +2,9 @@ katz_deli = []
 
 def line(array)
   if array.size >= 1 
-    print "The line is currently: "
+    message = "The line is currently: "
     for x in array 
-      print "#{array.index(x) + 1}. #{x} "  
+      message.c "#{array.index(x) + 1}. #{x} "  
     end
   else 
     puts "The line is currently empty."
