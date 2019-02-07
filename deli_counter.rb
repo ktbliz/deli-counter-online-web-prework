@@ -5,7 +5,6 @@ def line(array)
     message = "The line is currently: "
     for x in array 
       message << "#{array.index(x) + 1}. #{x} "  
-      puts message
     end
   else 
     puts "The line is currently empty."
