@@ -7,7 +7,7 @@ def line(array)
       prints "#{array.index(x) + 1}. #{x}"  
   else 
     puts "The line is currently empty."
-
+  end
 end 
 
 line(katz_deli)
