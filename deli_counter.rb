@@ -1,4 +1,4 @@
-katz_deli = ["tite", "baha"]
+katz_deli = []
 
 def line(array)
   if array.size >= 1 
@@ -11,7 +11,7 @@ def line(array)
   end
 end 
 
-line(katz_deli)
+
 
 
 def take_a_number
