@@ -3,6 +3,7 @@ katz_deli = []
 def line(array)
   if array.size >= 1 
     for x in array 
+      puts 
   else 
     puts "The line is currently empty."
 
