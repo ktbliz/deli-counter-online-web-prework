@@ -2,9 +2,9 @@ katz_deli = []
 
 def line(array)
   if array.size >= 1 
-    message = "The line is currently: "
+    message = "The line is currently:"
     for x in array 
-      message << "#{array.index(x) + 1}. #{x} "  
+      message << " #{array.index(x) + 1}. #{x}"  
     end
     puts message
   else 
