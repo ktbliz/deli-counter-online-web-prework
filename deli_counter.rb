@@ -1,7 +1,10 @@
 katz_deli = []
 
 def line(array)
-  if array.
+  if array.size >= 1 
+    
+  else 
+    puts "The line is currently empty."
 
 end 
 
