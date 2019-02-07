@@ -5,6 +5,7 @@ def line(array)
     print "The line is currently: "
     for x in array 
       prints "#{array.index(x) + 1}. #{x}"  
+    end
   else 
     puts "The line is currently empty."
   end
